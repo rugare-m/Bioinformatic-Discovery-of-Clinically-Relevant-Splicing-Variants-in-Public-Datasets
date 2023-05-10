@@ -28,7 +28,7 @@ def get_flanking_sequences(fasta_file, sequence_id, position, flank_length):
             sequence = record.seq
             if position >= flank_length and position + flank_length < len(sequence):
                 left_flank = sequence[position - flank_length:position]
-                right_flank = sequence[position:position + flank_length]
+                right_flank = sequence[position:position + flank_length + 1]
                 break
 
     return left_flank, right_flank

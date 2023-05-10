@@ -7,9 +7,12 @@ lists = []
 
 runcounter = 0
 
+#doesnt change, this is tissue information from metasra
 pd_tissues = pd.read_csv('/home/rmaruzani/storage/vus/toolkits/sra/merged_metasra.csv')
 dictionary = dict(zip(pd_tissues['study_id'], pd_tissues['tissue search']))
 
+#take recount3-metasra Study ID instersect, and output "Study", "Run ID", "Consent", "Size (MB)", "Organism", "Tissue" csv and txt files
+#human only, no fibroblast
 with open('/home/rmaruzani/storage/vus/toolkits/sra/recount3_x_metasra.txt') as f:
     for line in f:
         
