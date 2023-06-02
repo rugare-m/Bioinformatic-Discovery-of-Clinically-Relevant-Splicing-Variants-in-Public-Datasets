@@ -1,0 +1,160 @@
+nohup: ignoring input
+sys:1: DtypeWarning: Columns (14) have mixed types.Specify dtype option on import or set low_memory=False.
+./bio_entrez.py:65: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  nofb_df["Tissue"] = nofb_df["Tissue"].replace(to_replace="subcutaneous adipose tissue", value="adipose")
+1
+['SRP214175', 'SRR9669411', 'public', '4905', 'Homo sapiens', 'pancreas']
+2
+['SRP214175', 'SRR9669412', 'public', '6092', 'Homo sapiens', 'pancreas']
+3
+['SRP214175', 'SRR9669413', 'public', '5743', 'Homo sapiens', 'pancreas']
+4
+['SRP214175', 'SRR9669414', 'public', '6794', 'Homo sapiens', 'pancreas']
+5
+['SRP214175', 'SRR9669415', 'public', '5727', 'Homo sapiens', 'pancreas']
+6
+['SRP214175', 'SRR9669416', 'public', '5750', 'Homo sapiens', 'pancreas']
+7
+['SRP237323', 'SRR10676591', 'public', '384', 'Homo sapiens', 'fibroblast']
+8
+['SRP237323', 'SRR10676592', 'public', '117', 'Homo sapiens', 'fibroblast']
+9
+['SRP237323', 'SRR10676593', 'public', '299', 'Homo sapiens', 'fibroblast']
+10
+['SRP237323', 'SRR10676594', 'public', '2553', 'Homo sapiens', 'fibroblast']
+11
+['SRP237323', 'SRR10676595', 'public', '367', 'Homo sapiens', 'fibroblast']
+12
+['SRP237323', 'SRR10676596', 'public', '628', 'Homo sapiens', 'fibroblast']
+13
+['SRP237323', 'SRR10676597', 'public', '1', 'Homo sapiens', 'fibroblast']
+14
+['SRP237323', 'SRR10676598', 'public', '63', 'Homo sapiens', 'fibroblast']
+15
+['SRP128080', 'SRR6442232', 'public', '3831', 'Homo sapiens', 'colon']
+16
+['SRP128080', 'SRR6442231', 'public', '3068', 'Homo sapiens', 'colon']
+17
+['SRP128080', 'SRR6442233', 'public', '3269', 'Homo sapiens', 'colon']
+18
+['SRP128080', 'SRR6442227', 'public', '3017', 'Homo sapiens', 'colon']
+19
+['SRP128080', 'SRR6442228', 'public', '3158', 'Homo sapiens', 'colon']
+20
+['SRP128080', 'SRR6442234', 'public', '3453', 'Homo sapiens', 'colon']
+21
+['SRP128080', 'SRR6442229', 'public', '3142', 'Homo sapiens', 'colon']
+22
+['SRP128080', 'SRR6442230', 'public', '3370', 'Homo sapiens', 'colon']
+23
+['SRP219393', 'SRR10025817', 'public', '1138', 'Homo sapiens', 'breast']
+24
+['SRP219393', 'SRR10025818', 'public', '1105', 'Homo sapiens', 'breast']
+25
+['SRP219393', 'SRR10025819', 'public', '1007', 'Homo sapiens', 'breast']
+26
+['SRP219393', 'SRR10025820', 'public', '936', 'Homo sapiens', 'breast']
+27
+['SRP219393', 'SRR10025821', 'public', '987', 'Homo sapiens', 'breast']
+28
+['SRP219393', 'SRR10025822', 'public', '1115', 'Homo sapiens', 'breast']
+29
+['SRP219393', 'SRR10025823', 'public', '1334', 'Homo sapiens', 'breast']
+30
+['SRP219393', 'SRR10025824', 'public', '913', 'Homo sapiens', 'breast']
+31
+['SRP219393', 'SRR10025825', 'public', '1020', 'Homo sapiens', 'breast']
+32
+['SRP219393', 'SRR10025826', 'public', '1157', 'Homo sapiens', 'breast']
+33
+['SRP219393', 'SRR10025827', 'public', '1200', 'Homo sapiens', 'breast']
+34
+['SRP219393', 'SRR10025828', 'public', '1165', 'Homo sapiens', 'breast']
+35
+['SRP230398', 'SRR10485747', 'public', '8125', 'Homo sapiens', 'uterus']
+36
+['SRP230398', 'SRR10485748', 'public', '7260', 'Homo sapiens', 'uterus']
+37
+['SRP230398', 'SRR10485749', 'public', '7393', 'Homo sapiens', 'uterus']
+38
+['SRP230398', 'SRR10485750', 'public', '32509', 'Homo sapiens', 'uterus']
+39
+['SRP230398', 'SRR10485751', 'public', '25896', 'Homo sapiens', 'uterus']
+40
+['SRP230398', 'SRR10485752', 'public', '30180', 'Homo sapiens', 'uterus']
+41
+['SRP237943', 'SRR10721112', 'public', '1142', 'Homo sapiens', 'pancreas']
+42
+['SRP237943', 'SRR10721113', 'public', '1149', 'Homo sapiens', 'pancreas']
+43
+['SRP237943', 'SRR10721114', 'public', '1279', 'Homo sapiens', 'pancreas']
+44
+['SRP237943', 'SRR10721115', 'public', '1337', 'Homo sapiens', 'pancreas']
+45
+['SRP237943', 'SRR10721116', 'public', '1215', 'Homo sapiens', 'pancreas']
+46
+['SRP237943', 'SRR10721117', 'public', '1223', 'Homo sapiens', 'pancreas']
+47
+['SRP237943', 'SRR10721118', 'public', '1329', 'Homo sapiens', 'pancreas']
+48
+['SRP237943', 'SRR10721119', 'public', '1242', 'Homo sapiens', 'pancreas']
+49
+['SRP237943', 'SRR10721120', 'public', '864', 'Homo sapiens', 'pancreas']
+50
+['SRP237943', 'SRR10721121', 'public', '1202', 'Homo sapiens', 'pancreas']
+51
+['SRP237943', 'SRR10721122', 'public', '1211', 'Homo sapiens', 'pancreas']
+52
+['SRP237943', 'SRR10721123', 'public', '1253', 'Homo sapiens', 'pancreas']
+53
+['SRP237943', 'SRR10721124', 'public', '1185', 'Homo sapiens', 'pancreas']
+54
+['SRP237943', 'SRR10721125', 'public', '1440', 'Homo sapiens', 'pancreas']
+55
+['SRP237943', 'SRR10721126', 'public', '1336', 'Homo sapiens', 'pancreas']
+56
+['SRP237943', 'SRR10721127', 'public', '1195', 'Homo sapiens', 'pancreas']
+57
+['SRP237943', 'SRR10721128', 'public', '1269', 'Homo sapiens', 'pancreas']
+58
+['SRP237943', 'SRR10721129', 'public', '1459', 'Homo sapiens', 'pancreas']
+59
+['SRP237943', 'SRR10721130', 'public', '1209', 'Homo sapiens', 'pancreas']
+60
+['SRP237943', 'SRR10721131', 'public', '1364', 'Homo sapiens', 'pancreas']
+61
+['SRP237943', 'SRR10721132', 'public', '1116', 'Homo sapiens', 'pancreas']
+62
+['SRP237943', 'SRR10721133', 'public', '1345', 'Homo sapiens', 'pancreas']
+63
+['SRP237943', 'SRR10721134', 'public', '1353', 'Homo sapiens', 'pancreas']
+64
+['SRP237943', 'SRR10721135', 'public', '1231', 'Homo sapiens', 'pancreas']
+65
+['SRP237943', 'SRR10721136', 'public', '2235', 'Homo sapiens', 'pancreas']
+66
+['SRP237943', 'SRR10721137', 'public', '2183', 'Homo sapiens', 'pancreas']
+67
+['SRP237943', 'SRR10721138', 'public', '1057', 'Homo sapiens', 'pancreas']
+68
+['SRP237943', 'SRR10721139', 'public', '1157', 'Homo sapiens', 'pancreas']
+69
+['SRP237943', 'SRR10721140', 'public', '1103', 'Homo sapiens', 'pancreas']
+70
+['SRP237943', 'SRR10721141', 'public', '1161', 'Homo sapiens', 'pancreas']
+71
+['SRP237943', 'SRR10721142', 'public', '1130', 'Homo sapiens', 'pancreas']
+72
+['SRP237943', 'SRR10721143', 'public', '2453', 'Homo sapiens', 'pancreas']
+73
+['SRP237943', 'SRR10721144', 'public', '2346', 'Homo sapiens', 'pancreas']
+74
+['SRP237943', 'SRR10721145', 'public', '1147', 'Homo sapiens', 'pancreas']
+75
+['SRP237943', 'SRR10721146', 'public', '1183', 'Homo sapiens', 'pancreas']
+76
+['SRP237943', 'SRR10721147', 'public', '1136', 'Homo sapiens', 'pancreas']

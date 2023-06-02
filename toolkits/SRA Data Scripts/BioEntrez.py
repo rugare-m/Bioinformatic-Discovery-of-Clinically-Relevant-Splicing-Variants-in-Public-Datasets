@@ -13,7 +13,7 @@ dictionary = dict(zip(pd_tissues['study_id'], pd_tissues['tissue search']))
 
 #take recount3-metasra Study ID instersect, and output "Study", "Run ID", "Consent", "Size (MB)", "Organism", "Tissue" csv and txt files
 #human only, no fibroblast
-with open('/home/rmaruzani/storage/vus/toolkits/sra/recount3_x_metasra.txt') as f:
+with open('/home/rmaruzani/storage/vus/toolkits/sra/recount3_studies.txt') as f:
     for line in f:
         
         if runcounter >= 100000:
