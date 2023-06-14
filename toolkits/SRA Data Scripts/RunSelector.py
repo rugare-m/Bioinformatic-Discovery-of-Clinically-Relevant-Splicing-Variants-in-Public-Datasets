@@ -9,6 +9,8 @@ usage: python RunSelector.py -s 51200 -c tissue_batch.csv -i recount3_x_metasra.
 -i is a txt of Study IDs, can be obtained from column one of output csv file from BioEntrez.py
 -ot is the output txt file, contains a list of study IDs
 -oc is the output csv file, contains the dataframe of study id, run id, consent, size, organism, tissue, for each run
+
+example output can be found in sub-dir 'sra files'
 '''
 parser = argparse.ArgumentParser(
                     prog='run_selector.py',
