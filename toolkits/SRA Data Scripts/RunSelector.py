@@ -3,7 +3,13 @@ import pandas as pd
 import random
 import argparse
 
-#argparse
+'''
+usage: python RunSelector.py -s 51200 -c tissue_batch.csv -i recount3_x_metasra.txt -ot download_runs.txt -oc download_runs.csv
+-c is the output csv file from BioEntrez.py
+-i is a txt of Study IDs, can be obtained from column one of output csv file from BioEntrez.py
+-ot is the output txt file, contains a list of study IDs
+-oc is the output csv file, contains the dataframe of study id, run id, consent, size, organism, tissue, for each run
+'''
 parser = argparse.ArgumentParser(
                     prog='run_selector.py',
                     description='select runs from a csv file based on a study id list, there is a size limit for runs in each study')
@@ -39,6 +45,7 @@ for item in my_list:
             accession.append(row['Size (MB)'])
             accession.append(row['Tissue'])
             accession.append(row['Study'])
+            #assigning 5 letter tissue codes
             if row['Tissue'] == 'brain':
                 accession.append("BRAIN")
             elif row['Tissue'] == 'adipose':
