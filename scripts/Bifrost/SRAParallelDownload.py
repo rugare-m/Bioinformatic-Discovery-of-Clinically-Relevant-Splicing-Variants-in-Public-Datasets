@@ -23,14 +23,14 @@ selected_df = pd.DataFrame(columns=df.columns)
 filtered_df = df[df['Size (MB)'] <= 10240]
 
 
-# Loop through each unique tissue and randomly select run IDs until the total size is up to 10GB
+# Loop through each unique tissue and randomly select run IDs until the total size is up to 20GB
 for tissue in df['Tissue'].unique():
     print (tissue)
     tissue_df = filtered_df[filtered_df['Tissue'] == tissue]
     tissue_df = tissue_df.sample(frac=1, random_state=100)
     total_size = 0
     for _, row in tissue_df.iterrows():
-        if total_size + row['Size (MB)'] <= 10240:
+        if total_size + row['Size (MB)'] <= 20480:
             #print(row)
             selected_df = selected_df.append(row)
             total_size += row['Size (MB)']
