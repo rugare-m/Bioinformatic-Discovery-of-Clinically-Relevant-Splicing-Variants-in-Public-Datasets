@@ -1,0 +1,22 @@
+#install conda
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+
+./Miniconda3-latest-Linux-x86_64.sh
+
+conda install -c bioconda bifrost
+conda install -c bioconda samtools
+conda install -c bioconda gatk4
+conda install -c bioconda nextflow
+conda install -c bioconda star
+conda install -c bioconda agat
+conda install -c bioconda subread
+
+
+pip install pandas
+pip install biopython
+pip install argparse
+pip install numpy
+pip install csv
+pip install pysam
+pip install glob
+pip install subprocess
