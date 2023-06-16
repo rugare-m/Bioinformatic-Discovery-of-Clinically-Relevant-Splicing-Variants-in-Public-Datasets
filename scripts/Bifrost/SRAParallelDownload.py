@@ -72,12 +72,12 @@ def process_srr(srr):
 #run parallel processes
 if __name__ == '__main__':
     srrs = list(dictionary.keys())
-    pool = Pool(processes=50)  # create a pool of 10 worker processes
-    new_names = pool.map(process_srr, srrs)  #process 10 SRRs at a time in parallel
+    pool = Pool(processes=75)  # create a pool of n worker processes
+    new_names = pool.map(process_srr, srrs)  #process n SRRs at a time in parallel
     pool.close()
     pool.join() 
 
-#write the new names to a file as input for Bifrost    
+#write the new names to a file for input for Bifrost    
 with open('sra.txt', 'w') as f:
     for srr in new_names:
         f.write(srr+'\n')
