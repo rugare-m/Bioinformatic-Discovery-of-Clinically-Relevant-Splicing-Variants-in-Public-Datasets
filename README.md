@@ -1,7 +1,7 @@
 # Bioinformatic Discovery of Clinically Relevant Splicing Variants in Public Datasets
 
 ### Background
-This work was done as part of a 3-month internship at Kings College London, and Guy's & St Thomas Hospital's Genomics Innovation Unit (GUI) in London. The project was supervised by [Dr Ali Raza Awan](https://www.linkedin.com/in/ali-awan-phd-51041860/?originalSubdomain=uk), the GUI lead.
+This work was done as part of a 3-month internship at Kings College London, and [Guy's & St Thomas Hospital's Genomics](https://www.guysandstthomas.nhs.uk) Innovation Unit (GIU) in London. The project was supervised by [Dr Ali Raza Awan](https://www.linkedin.com/in/ali-awan-phd-51041860/?originalSubdomain=uk), the GIU lead.
 
 
 ### Abstract
