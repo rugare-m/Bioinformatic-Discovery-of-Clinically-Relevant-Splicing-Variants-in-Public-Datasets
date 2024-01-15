@@ -28,3 +28,5 @@ GeneReadsExport.nf
 ```
 
 VUSs that had at least 5 samples supporting the reference and alternate alleles were carried forward to investigate the differences in expression and splicing. Before this, some sanity checks were performed on data. First, I checked to see if the query sequence in each positive sample was found in the expected region. Bifrost will return a match for a query sequence that occurs anywhere within the sample – we were only interested in matches at the loci of the VUS. I mapped the FASTQ files to GRCh38, using the STAR aligner and exported reads mapping to the VUS gene. Next, I used the grep tool in bash to confirm the query sequence was still present in the gene only reads – if, indeed there were still reads present. Out of 1233 synonymous VUS SNPs, 15 passed the quality control and sanity check. I first performed differential expression analysis on these samples using Salmon, which showed no differences in gene expression. At this point we ran out of time on the project before investigating any differences in transcript splicing between reference and VUS allele samples. 
+
+### Thanks to
