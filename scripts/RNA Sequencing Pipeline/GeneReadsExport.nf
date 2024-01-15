@@ -2,7 +2,7 @@
 
 
 params.fastqs = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/SRR139*_{1,2}.fastq"
-params.gtf = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/hg38.gtf"
+params.gtf = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/hg38.ncbiRefSeq.gtf"
 params.reference = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/hg38.fa"
 params.outdir = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data"
 params.genes = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/gene_file.txt"
