@@ -8,6 +8,7 @@ Approximately 80% of rare diseases have a genetic component. Genetic testing is 
 
 ### Pipeline Workflow 
 ![VUS](https://github.com/rugare-m/Bioinformatic-Discovery-of-Clinically-Relevant-Splicing-Variants-in-Public-Datasets/assets/88198662/737c29df-f530-44e7-ba59-fcd3f8277f46)
+
 ### Collecting RNA Sequencing metadata from Sequence Read Archive
 ```
 BioEntrez.py & RunSelector.py
