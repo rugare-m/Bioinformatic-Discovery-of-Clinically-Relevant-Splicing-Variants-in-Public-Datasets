@@ -11,7 +11,7 @@ Variants of Uncertain Significance are variants of which there is conflicting, o
 
 ### Collecting RNA Sequencing metadata from Sequence Read Archive
 ```
-BioEntrez.py & [RunSelector.py](https://github.com/rugare-m/Bioinformatic-Discovery-of-Clinically-Relevant-Splicing-Variants-in-Public-Datasets/blob/main/code/RunSelector.py)
+BioEntrez.py & RunSelector.py
 ```
 
 MetaSRA is a webtool that annotates SRA data with tissue of origin information using SRA metadata. I downloaded a list of SRA Study IDs based on 23 tissues adopted from tissues described in the GTEx database. SRA Study IDs hold individual sample Run IDs from a single experiment. SRA currently only supports downloading data using Run IDs, so I had to extract Run ID information for each Study ID, and for each tissue. Additionally, we were only interested in human samples with public access consent. Using MetaSRA Study IDs and the National Center for Biotechnology Information (NCBI)’s Entrez database system, I collected sample Run IDs, Sample Size (Mb, Gb), organism, and consent status. 
