@@ -95,8 +95,8 @@ print("Common values removed.", flush=True)
 
 # Filter the dictionaries based on the number of samples per variant
 print("Filtering dictionaries based on count...", flush=True)
-n_alt = 1
-n_ref = 1
+n_alt = 5
+n_ref = 5
 alt_filtered_dict_x = {key: value for key, value in new_alt_filtered_dict.items() if len(value) >= n_ref}
 ref_filtered_dict_x = {key: value for key, value in new_ref_filtered_dict.items() if len(value) >= n_alt}
 print("Dictionaries filtered based on count.", flush=True)

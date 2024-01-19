@@ -1,11 +1,11 @@
 #!/usr/bin/env nextflow
 
 
-params.fastqs = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/ecoli/SRR139*_{1,2}.fastq"
-params.gtf = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/ecoli/GCF_003017915.1_ASM301791v1_genomic.gtf"
-params.reference = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/ecoli/GCF_003017915.1_ASM301791v1_genomic.fna"
-params.outdir = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/ecoli"
-params.genes = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/ecoli/gene_file.txt"
+params.fastqs = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/SRR139*_{1,2}.fastq"
+params.gtf = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/hg38.ncbiRefSeq.gtf"
+params.reference = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/hg38.fa"
+params.outdir = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data"
+params.genes = "/Users/rugaremaruzani/Library/CloudStorage/OneDrive-TheUniversityofLiverpool/Genomics_Innovation_Unit/internship_proper/sra_data/gene_file.txt"
 
 Channel.fromPath(params.reference).set { ref_genome_ch }
 
